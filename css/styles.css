@@ -67,7 +67,7 @@ h1 {
     margin: 0px;
     display: flex;
     height: 60px;
-    justify-content:space-around;
+    justify-content:center;
     align-items: end;
 }
 
@@ -370,10 +370,16 @@ display: flex;
    grid-template-rows: 400px 400px 400px;
    gap: 30px;
 }
+
+.div-titulos-nav{
+    display: flex;
+}
  
 
 @media only screen and (max-width:1000px) {
-
+    .div-titulos-nav{
+        display: block;
+    }
     .img-conteiner{
         grid-template-columns:  300px 300px;
         grid-template-rows: 300px 300px 300px;
@@ -381,30 +387,35 @@ display: flex;
         gap: 100px;
     }
 
+    .nav_estilos{
+        display: grid;
+        grid-template-columns:  100px 100px 100px;
+        grid-template-rows: 20px 20px;
+        grid-row: auto;
+        grid-column: auto;
+        align-items: baseline;
+    }
+
     .tituloSeccion {
-        font-size: small;
-        margin: 0;
-        text-align: justify;
-        justify-content: center;
-        max-width: 200px; 
+        
+        display: grid;
+        font-size: xx-small;
+        max-width: 100px; 
+        margin: 0 2px;
         overflow-wrap: break-word;
     }
+    
+
 
 }
 
 @media only screen and (max-width: 768px) {
 
+
+
     .section-img-grids{
         display: flex;
         justify-content: center;
-    }
-    .tituloSeccion {
-        font-size: small;
-        margin: 0;
-        text-align: justify;
-        justify-content: center;
-        max-width: 200px; 
-        overflow-wrap: break-word;
     }
 
     .p-responsive{
