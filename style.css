@@ -4,7 +4,12 @@ body {
 }
 
 .color {
-  background-color: rgb(88, 154, 196);
+  background-color: rgb(105, 167, 202);
+}
+
+.underline {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(159, 159, 159);
 }
 
 #titulo {
@@ -313,6 +318,12 @@ h1 {
   display: flex;
   justify-content: space-around;
   font-size: 20px;
+}
+
+.text {
+  font-style: italic;
+  font-size: medium;
+  font-weight: 500;
 }
 
 .img-grids {
