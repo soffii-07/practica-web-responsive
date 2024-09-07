@@ -1,0 +1,39 @@
+@mixin flex-center-start {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+  }
+
+  @mixin flex-spaceAround-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  @mixin flex-fontxxLarge-center {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+  }
+  
+
+  @mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @mixin grid-center-widthAuto{
+      display: grid;
+      place-items: center;
+      width: auto;
+  }
+
+
+
+  @mixin width-borderTopVBlue{
+    width: 100%;
+    border-top: $linea-azul
+}

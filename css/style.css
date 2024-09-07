@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(216, 216, 216) !important;
 }
 
 .color {
   background-color: rgb(105, 167, 202);
 }
 
-.underline {
+div div h2 {
   text-decoration-line: underline;
   text-decoration-color: rgb(159, 159, 159);
 }
@@ -175,10 +176,10 @@ h1 {
 .div-sec2-1 {
   margin-top: 40px;
   width: 30%;
-  border-bottom: rgb(0, 162, 255) 2px solid;
 }
 
 .div-sec2-2 {
+  margin-top: 40px;
   width: 70%;
 }
 
@@ -404,38 +405,14 @@ h1 {
   font-weight: 100;
 }
 
-@media only screen and (max-width: 1000px) {
-  .div-titulos-nav {
-    display: block;
-  }
+@media only screen and (max-width: 1300px) {
   .boton {
     font-size: xx-small;
     height: 50px;
     width: 80px;
   }
-  .img-conteiner {
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 300px 300px 300px;
-    padding: 0;
-    gap: 100px;
-  }
-  .nav_estilos {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 20px 20px;
-    grid-row: auto;
-    grid-column: auto;
-    align-items: baseline;
-  }
-  .tituloSeccion {
-    display: grid;
-    font-size: xx-small;
-    max-width: 100px;
-    margin: 0 2px;
-    overflow-wrap: break-word;
-  }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .section-img-grids {
     display: flex;
     justify-content: center;
@@ -470,7 +447,7 @@ h1 {
   .div-p1 {
     display: grid;
     place-items: center;
-    width: max-content;
+    width: auto;
   }
   .div-img1 {
     display: block;
@@ -478,7 +455,42 @@ h1 {
   .div-p2 {
     display: grid;
     place-items: center;
-    width: max-content;
+    width: auto;
+  }
+  .div-aux1 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .div-aux2 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .div-aux3 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .div-aux4 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .ultima-div1 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .ultima-div2 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .div-sec2-1 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .div-sec2-2 {
+    width: 100%;
+    border-top: rgb(0, 162, 255) 2px solid;
+  }
+  .texto-3 {
+    padding-left: 0;
   }
   .paises-limitrofes {
     display: flexbox;
