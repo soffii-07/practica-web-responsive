@@ -1,0 +1,268 @@
+.primera-seccion{
+    padding: 50px;
+}
+.div-p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+  div{
+    div{
+      h2{
+          text-decoration-line: underline;
+          text-decoration-color: rgb(159, 159, 159);      
+      }
+    }
+}
+
+.p1{
+    width: 600px;
+}
+
+.text{
+    font-style: italic;
+     font-size: medium;
+     font-weight: 500;
+    }
+
+.div-img1{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    padding-bottom: 50px;
+    padding-right: 10%;
+}
+
+.div-aux{
+    @include flex-center-start;
+}
+
+.div-aux1{
+    width: 70%;
+}
+
+.div-aux2{
+    width: 30%;
+    border-top: $linea-azul;
+}
+
+.div-img2{
+    display: flex;
+    padding-left: 10%;
+    width: 600px;
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+.texto-3{
+    padding-left:80px ;
+ }
+
+.ultima-div{
+    @include flex-center-start;
+  }
+
+.ultima-div1{
+    width: 70%; 
+}
+
+.ultima-div2{
+    width: 30%;
+    border-top: $linea-azul;
+}
+
+/*section2*/
+
+.segunda-seccion{
+    padding: 50px;
+}
+
+.titulo-seccion-2{
+    @include flex-fontxxLarge-center;
+    font-style: normals;
+  }
+  
+.h2-1{
+    display: flex;
+   justify-content: space-between;
+   margin: 50px;
+}
+
+.div-sec2-p1-img1{
+    @include flex-spaceAround-center;
+  }
+
+.div-sec2-1{
+    margin-top:40px;
+    width: 30%;
+}
+
+.div-sec2-2{
+    margin-top: 40px;
+    width: 70%;
+      
+  }
+
+.div-sec2-p2-img2{
+    @include flex-spaceAround-center;
+  }
+
+.p2{
+    width: 600px;  
+}
+.div-sec2{
+    @include flex-center-start;
+  }
+
+.h2-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.div-sec2-p3-img3{
+    @include flex-spaceAround-center;
+  }
+
+.p3{
+    width: 600px;
+}
+
+.div4-h2{
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.div-sec2-p4-img4{
+    @include flex-spaceAround-center;
+  }
+
+.p4{
+    width: 600px;
+}
+/* section3*/ 
+
+.sec-3{
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.div-video{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+
+.div-h2-3{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 70px;
+    font-size:20px ;
+    margin-right: 50px;
+}
+
+.div-mapa{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.div-vacio{
+    width: 50%;
+}
+/*section 4*/
+
+.div-h2-sec4{
+    @include flex-fontxxLarge-center;
+  }
+
+.li-sec4{
+    margin: 50px;
+    margin-bottom: 0;
+    font-size: x-large;
+}
+
+.div-p-sec4{
+    @include flex-spaceAround-center;
+  }
+
+.p-sec4{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+.img-sec4{
+    display: flex;   
+    width: 900px;
+    height: 400px;
+}
+
+.img2-sec4{
+    display: flex;
+    height: 450px;
+}
+
+.img3-sec4{
+    display: flex;
+    width:580px;
+}
+
+.img4-sec4{
+    display: flex;
+}
+
+.img5-sec4{
+    display: flex;
+ height: 450px;
+}
+/* section 5*/
+
+.sec-5{
+    @include flex-fontxxLarge-center;
+  }
+
+.div-sec5{
+    @include flex-center-center;
+  }
+
+.p-sec5{
+    width: 70%;
+}
+
+.img1-sec5{
+    width: 450px;
+}
+
+.h2-sec5{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+/* section*/
+
+.img-conteiner{
+    display: grid;
+    text-align: center;
+    margin: 5px 0;
+    place-items: center ;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+ }
+
+ .img-grids{
+    // animacion agregar
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    width: 300px;
+}

@@ -1,30 +1,25 @@
 @import 'variables';
 @import "mixins"; 
+@import "partials/sections";
+@import "partials/footer";
+@import "partials/mediaquerys";
 
-body {
+body{
     margin: 0;
     padding:0;
     background-color: rgb(216, 216, 216) !important;
   }
-  .color{
+
+.color{
       background-color:rgb(105, 167, 202);
   }
-
-  div{
-      div{
-        h2{
-            text-decoration-line: underline;
-            text-decoration-color: rgb(159, 159, 159);      
-        }
-      }
-  }
   
-  #titulo {
+#titulo {
     color:black;
     font-style: normal;
     text-align: center;
   }
-  .div-titulo-seccion-1{
+.div-titulo-seccion-1{
       display: flex;
       justify-content: left;
       margin-left: 30px;
@@ -33,73 +28,26 @@ body {
       border-color: rgb(0, 162, 255);
   }
   
-  .div-img1{
-      display: flex;
-      height: 300px;
-      width: 400px;
-      padding-bottom: 50px;
-      padding-right: 10%;
-  }
-  
-  .div-aux{
-    @include flex-center-start;
-  }
-  
-  .div-aux1{
-      width: 70%;
-  }
-  
-  .div-aux2{
-      width: 30%;
-      border-top: $linea-azul;
-  
-  }
-  .div-aux3{ 
+.div-aux3{ 
       width: 30%;
       border-top: $linea-azul;
   }
   
-  .div-aux4{
+.div-aux4{
       width: 70%;
   }
   
-  
-  h1 {
+h1 {
     text-align: center;
     font-style:normal;
     font-size: 100px;
   }
-  
-  
-  .p1 {
-      width: 500px;
-  }
-  
-  .primera-seccion{
-      padding: 50px;
-      
-  }
-  
-  .div-p1{
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin-top: 90px;
-  }
-  
-  .div-img2{
-      display: flex;
-      padding-left: 10%;
-      width: 600px;
-      height: 400px;
-      padding-bottom: 50px;
-  }
-  
-  .titulo_seccion_1{
+
+.titulo_seccion_1{
   display: flex;
   }
   
-  .ultima-sec1{
+.ultima-sec1{
       display: flex;
       padding-top:80px ;
   }
@@ -107,212 +55,14 @@ body {
   .img-ultima{  
       width: 800px;
   }
-  .texto-3{
-     padding-left:80px ;
-  }
-  
-  .ultima-div{
-    @include flex-center-start;
-  }
-  .ultima-div1{
-      width: 70%; 
-  }
-  .ultima-div2{
-      width: 30%;
-      border-top: $linea-azul;
-  }
-  .segunda-seccion{
-      padding: 50px;
-  }
-  .titulo-seccion-2{
-    @include flex-fontxxLarge-center;
-    font-style: normals;
-  }
-  .h2-1{
-      display: flex;
-     justify-content: space-between;
-     margin: 50px;
-  }
-  
-  .div-sec2-p1-img1{
-    @include flex-spaceAround-center;
-  }
-  
-  .p1{
-      width: 600px;
-  }
-  .h2-2{
+
+.h2-2{
       display: flex;
       justify-content: space-between;
       margin: 50px;   
   }
-  .div-sec2-p2-img2{
-    @include flex-spaceAround-center;
-  }
-  .p2{
-      width: 600px;  
-  }
-  .div-sec2{
-    @include flex-center-start;
-  }
-  .div-sec2-1{
-      margin-top:40px;
-      width: 30%;
-  }
-      
-  .div-sec2-2{
-    margin-top: 40px;
-    width: 70%;
-      
-  } 
-  .h2-3{
-      display: flex;
-      justify-content: space-between;
-      margin: 50px;
-  }
-  .p3{
-      width: 600px;
-  }
-  .div-sec2-p3-img3{
-    @include flex-spaceAround-center;
-  }
-  .div4-h2{
-      justify-content: space-between;
-      margin: 50px;
-  }
-  .div-sec2-p4-img4{
-    @include flex-spaceAround-center;
-  }
-  .p4{
-      width: 600px;
-  }
-  
-  .sec-3{
-      display: flex;
-      margin-bottom: 50px;
-      font-size: 20px;
-      margin-left: 50px;
-  }
-  .div-video{
-      display: flex;
-      justify-content: left;
-      margin-bottom: 70px;
-      margin-left: 50px;
-  }
-  .div-h2-3{
-      display: flex;
-      justify-content: end;
-      margin-bottom: 70px;
-      font-size:20px ;
-      margin-right: 50px;
-  
-  }
-  .div-mapa{
-      display: flex;
-      justify-content: space-around;
-      margin-right: 50px;
-  }
-  .div-vacio{
-      width: 50%;
-  }
-  
-  .div-h2-sec4{
-    @include flex-fontxxLarge-center;
-  }
-  .li-sec4{
-      margin: 50px;
-      margin-bottom: 0;
-      font-size: x-large;
-  }
-  
-  .div-p-sec4{
-    @include flex-spaceAround-center;
-  }
-  .img-sec4{
-      display: flex;   
-      width: 900px;
-      height: 400px;
-  }
-  .p-sec4{
-      display: flex;
-      justify-content: center;
-      width: 600px;
-  }
-  .img2-sec4{
-      display: flex;
-      height: 450px;
-  }
-  .img3-sec4{
-      display: flex;
-      width:580px;
-  }
-  .img4-sec4{
-      display: flex;
-  }
-  .img5-sec4{
-      display: flex;
-   height: 450px;
-  }
-  .sec-5{
-    @include flex-fontxxLarge-center;
-  }
-  .p-sec5{
-      width: 70%;
-  }
-  
-  .img1-sec5{
-      width: 450px;
-  }
-  .div-sec5{
-    @include flex-center-center;
-  }
-  .h2-sec5{
-      display: flex;
-      justify-content: space-around;
-      font-size: 20px;
-  }
-  .text{
-  font-style: italic;
-   font-size: medium;
-   font-weight: 500;
-  }
-  .img-grids{
-      // animacion agregar
-      width: 100%;
-      display: grid;
-      justify-content: center;
-      width: 300px;
-  }
-  .img-conteiner{
-     display: grid;
-     text-align: center;
-     margin: 5px 0;
-     place-items: center ;
-     grid-template-columns: 400px 400px 400px;
-     grid-template-rows: 400px 400px;
-     justify-content: center;
-     align-items: center;
-     padding: 20px;
-     gap: 30px;
-  }
-  .footer{
-      display: flex;
-      justify-content: center;
-      background-color: black;
-     
-  }
-  .contenido-footer{  
-      display: flex;
-      text-align: center;
-  }
-  .footer-p{
-      color: white;
-  }
-  
-  .footer-a{
-      color: white;
-  }
-  .div-titulo-pagina{
+
+.div-titulo-pagina{
       display: flex;
       width: 100%;
       justify-content: center;
@@ -325,11 +75,12 @@ body {
     padding-bottom: 80px;
     padding-left: 7px;
 }
-  .div-boton{
+
+.div-boton{
       position:fixed;
      
   }
-  .boton{
+.boton{
       height: 50px;
       width: 90px;
       border-radius: 10%; 
@@ -343,162 +94,7 @@ body {
       border: 3px solid lightblue;
   }
   
-  .scrollToTop{
+.scrollToTop{
       font-style: none;
       font-weight: 100;
   }
-  @media only screen and (max-width:1300px) {
-      .boton{
-          font-size: xx-small;
-          height: 50px;
-          width: 80px;
-      }     
-  }
-  
-  @media only screen and (max-width: 1200px) {
-  
-  
-  
-      .section-img-grids{
-          display: flex;
-          justify-content: center;
-      }
-  
-      .p-responsive{
-          width: 400px;
-      }
-  
-      .p-sec4{
-          width: 400px;
-      }
-  
-      .img-responsive{
-          width: 400px;
-      }
-  
-      .img-conteiner{
-          grid-template-columns:  150px;
-          grid-template-rows: 200px 200px 200px 200px;
-          padding: 0;
-          gap: 100px;
-      }
-  
-      
-      .img-grids{
-          width: 300px;
-      }
-  
-      .img1-sec5{
-          width: 350px;
-      }
-  
-      .img-sec4{
-          width: auto;
-      }
-  
-      .div-img2{
-          width: auto;
-      }
-  
-  
-  
-      
-      .div-p1{
-        @include grid-center-widthAuto;
-      }
-      .div-img1{
-          display: block;
-      }
-      .div-p2{
-        @include grid-center-widthAuto;
-      }
-  
-
-    .div-aux1 {
-        @include width-borderTopVBlue;
-    }
-    .div-aux2 {
-        @include width-borderTopVBlue;
-    }
-
-    .div-aux3 {
-        @include width-borderTopVBlue;
-    }
-
-    .div-aux4 {
-        @include width-borderTopVBlue;
-    }
-
-    .ultima-div1 {
-        @include width-borderTopVBlue;
-    }
-    .ultima-div2 {
-        @include width-borderTopVBlue;
-    }
-
-    .div-sec2-1{
-        @include width-borderTopVBlue;
-     }
-
-    .div-sec2-2{
-        @include width-borderTopVBlue;
-     }
-    .texto-3{
-        padding-left: 0;
-    }
-      .paises-limitrofes{
-          display: flexbox;        
-      } 
-      .titulo-seccion-2{
-          display: block;
-          font-style: normals;
-      }
-      .h2-1{
-            display: block;
-            justify-content: space-between;
-            margin: 50px;
-      }
-      .div-sec2-p1-img1{
-          display: block;
-      }
-          .div-sec2-p3-img3{
-              display: block;
-          }
-          .div-sec2-p2-img2{
-              display: block;
-          }
-          .div-sec2-p4-img4{
-              display: block;
-          }
-  
-          .div-p-sec4{
-              display: block;
-          }
-          .div-sec5{
-              display:grid;
-              place-items: center;
-          }
-  
-          .display-ultima{
-              display: block;
-              justify-content: center;
-              align-items: center;
-             }
-  
-             
-             .display-flex{
-                 display: block;
-                 
-              }
-              
-             .contenido-footer{
-              display: grid;
-              place-items: center;
-              width: max-content;
-             }
-             
-             
-           }   
-  
-  
-  

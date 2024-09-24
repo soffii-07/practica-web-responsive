@@ -1,0 +1,146 @@
+@media only screen and (max-width:1300px) {
+    .boton{
+        font-size: xx-small;
+        height: 50px;
+        width: 80px;
+    }     
+}
+
+@media only screen and (max-width: 1200px) {
+    .section-img-grids{
+        display: flex;
+        justify-content: center;
+    }
+
+    .p-responsive{
+        width: 400px;
+    }
+
+    .p-sec4{
+        width: 400px;
+    }
+
+    .img-responsive{
+        width: 400px;
+    }
+
+    .img-conteiner{
+        grid-template-columns:  150px;
+        grid-template-rows: 200px 200px 200px 200px;
+        padding: 0;
+        gap: 100px;
+    }
+
+    
+    .img-grids{
+        width: 300px;
+    }
+
+    .img1-sec5{
+        width: 350px;
+    }
+
+    .img-sec4{
+        width: auto;
+    }
+
+    .div-img2{
+        width: auto;
+    }
+
+    .div-p1{
+      @include grid-center-widthAuto;
+    }
+    .div-img1{
+        display: block;
+    }
+    .div-p2{
+      @include grid-center-widthAuto;
+    }
+
+
+  .div-aux1 {
+      @include width-borderTopVBlue;
+  }
+  .div-aux2 {
+      @include width-borderTopVBlue;
+  }
+
+  .div-aux3 {
+      @include width-borderTopVBlue;
+  }
+
+  .div-aux4 {
+      @include width-borderTopVBlue;
+  }
+
+  .ultima-div1 {
+      @include width-borderTopVBlue;
+  }
+  .ultima-div2 {
+      @include width-borderTopVBlue;
+  }
+
+  .div-sec2-1{
+      @include width-borderTopVBlue;
+   }
+
+  .div-sec2-2{
+      @include width-borderTopVBlue;
+   }
+  .texto-3{
+      padding-left: 0;
+  }
+    .paises-limitrofes{
+        display: flexbox;         
+    } 
+    .titulo-seccion-2{
+        display: block;
+        font-style: normals;
+    }
+    .h2-1{
+          display: block;
+          justify-content: space-between;
+          margin: 50px;
+    }
+    .div-sec2-p1-img1{
+        display: block;
+    }
+        .div-sec2-p3-img3{
+            display: block;
+        }
+        .div-sec2-p2-img2{
+            display: block;
+        }
+        .div-sec2-p4-img4{
+            display: block;
+        }
+
+        .div-p-sec4{
+            display: block;
+        }
+        .div-sec5{
+            display:grid;
+            place-items: center;
+        }
+
+        .display-ultima{
+            display: block;
+            justify-content: center;
+            align-items: center;
+           }
+
+           
+           .display-flex{
+               display: block;
+               
+            }
+            
+           .contenido-footer{
+            display: grid;
+            place-items: center;
+            width: max-content;
+           }
+           
+           
+         }   
